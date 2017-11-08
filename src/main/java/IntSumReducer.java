@@ -4,6 +4,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 
+/**
+ *   __author__: Salman M Rahman
+ */
+
+
 public class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
     
 	private IntWritable result = new IntWritable();

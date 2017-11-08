@@ -5,6 +5,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
+/**
+ *   __author__: Salman M Rahman
+ */
+
+
 public class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
 
 	private final IntWritable one = new IntWritable(1);

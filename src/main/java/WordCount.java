@@ -9,6 +9,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
+/**
+ *   __author__: Salman M Rahman
+ */
+
+
 public class WordCount {
 
 	private static void runJob(String[] input, String output) throws Exception {
